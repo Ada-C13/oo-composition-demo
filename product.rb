@@ -6,4 +6,8 @@ class Product
     @name = name
   end
 
+  def print_name
+    puts @name
+  end
+
 end
